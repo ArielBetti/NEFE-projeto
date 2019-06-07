@@ -16,3 +16,5 @@ ativa.addEventListener('click', (e) => {
         contador = 0;
     }
 });
+
+//JS//
