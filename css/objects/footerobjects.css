@@ -21,3 +21,19 @@
     font-size: 1.25em;
     color: #fff;
 }
+
+@media(max-width: 685px) {
+    .myapp-footer > .content > .dolphin > .photo{
+        height: 150px;
+    }
+    .myapp-footer > .content {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+}
+
+@media(max-width: 325px) {
+    .myapp-footer > .content {
+        text-align: center;
+    }
+}
