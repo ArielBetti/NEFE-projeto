@@ -17,12 +17,3 @@
     overflow: inherit !important;
     transform: translateY(0px) !important;
 }
-
-.anime {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    transform: translateY(-300px);
-    transition: 500ms;
-}
