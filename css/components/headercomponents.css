@@ -29,7 +29,7 @@
     content: "";
     height: 2px;
     width: 200px;
-    margin: auto;
+    margin:  10px auto 10px auto;
     display: block;
     background-color: #fff;
 }
@@ -52,7 +52,7 @@
 }
 
 .btn-header:hover {
-    background-color: rgba(105, 186, 229, 0.6);
+    background-color: rgba(0, 121, 107, 0.6);
 }
 
 .nav-header {
@@ -61,7 +61,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    transition: 200ms;
+    transition: 0ms;
 }
 
 .nav-mobile {
@@ -77,11 +77,9 @@
     flex-direction: column;
     text-align: center;
     width: 100%;
-    position: absolute;
-    left: 0px;
-    transition: 200ms;
+    height: 0px;
+    overflow: hidden;
 }
-
 
 @media(min-width: 471px) {
     .nav-mobile {
